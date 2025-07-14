@@ -1,4 +1,3 @@
-/* CSS Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -31,14 +30,12 @@ body {
     overflow-x: hidden;
 }
 
-/* Container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
-/* Header Styles */
 .header {
     position: fixed;
     top: 0;
@@ -127,7 +124,6 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -271,7 +267,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* Audio Section */
 .audio-section {
     padding: 3rem 0;
     background: var(--bg-light);
@@ -295,7 +290,6 @@ body {
     margin: 0 auto;
 }
 
-/* Section Styles */
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -315,7 +309,6 @@ body {
     margin: 0 auto;
 }
 
-/* About Section */
 .about {
     padding: 5rem 0;
     background: var(--bg-white);
@@ -345,6 +338,7 @@ body {
     gap: 1.5rem;
     margin-top: 2rem;
 }
+
 .about-image .team-photo {
     width: 100%;
     max-width: 500px;
@@ -352,7 +346,6 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     object-fit: cover;
 }
-
 
 .feature h4 {
     font-size: 1.125rem;
@@ -381,8 +374,6 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
 }
-
-/* Services Section */
 .services {
     padding: 5rem 0;
     background: var(--bg-light);
@@ -446,7 +437,6 @@ body {
     font-weight: bold;
 }
 
-/* Testimonials Section */
 .testimonials {
     padding: 5rem 0;
     background: var(--bg-white);
@@ -503,7 +493,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Contact Section */
 .contact {
     padding: 5rem 0;
     background: var(--bg-light);
@@ -557,7 +546,6 @@ body {
     line-height: 1.6;
 }
 
-/* Form Styles */
 .contact-form {
     background: white;
     padding: 2.5rem;
@@ -601,7 +589,6 @@ body {
     min-height: 120px;
 }
 
-/* Footer */
 .footer {
     background: var(--text-dark);
     color: white;
@@ -676,7 +663,6 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
@@ -767,12 +753,10 @@ body {
     }
 }
 
-/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-/* Animation Classes */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -806,7 +790,6 @@ html {
     }
 }
 
-/* Utility Classes */
 .text-center {
     text-align: center;
 }
@@ -831,7 +814,6 @@ html {
 .mt-4 { margin-top: 1.5rem; }
 .mt-5 { margin-top: 3rem; }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -849,7 +831,6 @@ html {
     background: var(--secondary-color);
 }
 
-/* Focus Styles for Accessibility */
 button:focus,
 input:focus,
 textarea:focus,
@@ -859,27 +840,22 @@ a:focus {
     outline-offset: 2px;
 }
 
-/* Print Styles */
 @media print {
     .header,
     .footer {
         display: none;
     }
-    
     .hero-video-container {
         display: none;
     }
-    
     body {
         color: black;
         background: white;
     }
-    
     .hero {
         background: white;
         color: black;
     }
-    
     .hero-content {
         color: black;
     }
