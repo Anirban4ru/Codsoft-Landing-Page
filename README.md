@@ -1,7 +1,7 @@
 # 🌐 CodSoft Landing Page
 
 ![Status](https://img.shields.io/badge/Live%20Demo-Available-00bfff?style=flat-square&logo=githubpages)
-![Internship](https://img.shields.io/badge/Task2 %20-Level%201-orange?style=flat-square&logo=codersrank)
+![Internship](https://img.shields.io/badge/Task %203-Level%201-orange?style=flat-square&logo=codersrank)
 ![Made by Anirban](https://img.shields.io/badge/Made%20by-Anirban%20Chatterjee-blueviolet?style=flat-square)
 
 > A sleek and responsive **Landing Page** built with HTML & CSS as part of **Task 2 Level 1** of my internship at **CodSoft**.
